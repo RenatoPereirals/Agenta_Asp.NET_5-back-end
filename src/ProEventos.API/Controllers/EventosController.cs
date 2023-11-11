@@ -116,7 +116,15 @@ namespace ProEventos.API.Controllers
         {
             try
             {
-                var evento = await _eventoService.UpdateEvento(User.GetUserId(), id, model);
+                var evento = await _eventoService.try
+                {
+                    UpdateEvento
+                }
+                catch (System.Exception)
+                {
+                    
+                    throw;
+                }(User.GetUserId(), id, model);
                 if (evento == null) return NoContent();
 
                 return Ok(evento);
