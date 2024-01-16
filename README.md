@@ -6,7 +6,13 @@
 [![JWT](https://img.shields.io/badge/JWT-5.0.0-yellow)](https://jwt.io/)
 [![AutoMapper](https://img.shields.io/badge/AutoMapper-8.0.0-blueviolet)](https://docs.automapper.org/en/stable/)
 
-Este é o backend do projeto Gerenciador de Eventos Pro-Eventos, desenvolvido em ASP.NET 5, utilizando um banco de dados SQLite com Entity Framework Core. O projeto adota o Identity Framework para gerenciamento de usuários, JWT para autenticação, AutoMapper para mapeamento de objetos e segue uma arquitetura MVC organizada em componentes.
+Bem-vindo ao backend do Gerenciador de Eventos, uma solução de backend robusta e eficiente desenvolvida com C# e ASP.NET. Este projeto incorpora uma variedade de tecnologias e frameworks modernos, incluindo Entity Framework Core para persistência de dados, JWT para autenticação e autorização seguras, e Identity Framework para gerenciamento de identidade.
+
+Além disso, o projeto implementa CORS para permitir solicitações seguras de diferentes origens e utiliza Swagger para documentação de API interativa e fácil de usar. Essas tecnologias e configurações adicionais garantem que o backend seja seguro, escalável e fácil de manter.
+
+Este backend foi projetado para trabalhar em conjunto com o frontend correspondente, fornecendo uma API confiável e eficiente para todas as operações do Gerenciador de Eventos. Ele destaca minha capacidade de criar soluções de backend complexas e seguras que podem suportar aplicações web modernas e interativas.
+
+Por favor, note que este é o backend do projeto e pode sofrer alterações à medida que o projeto avança.
 
 ## Instalação de Pré-Requisitos
 
